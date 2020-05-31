@@ -1,10 +1,14 @@
 {
   "name": "detect-secrets-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "install": "./bin/install-detect-secrets-node",
     "preuninstall": "./bin/uninstall-detect-secrets"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Weiyuan-Lane/detect-secrets-node"
   },
   "author": "Weiyuan Liu",
   "license": "ISC"
