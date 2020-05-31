@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "install": "./bin/install-detect-secrets",
+    "install": "./bin/install-detect-secrets-node",
     "preuninstall": "./bin/uninstall-detect-secrets"
   },
   "author": "Weiyuan Liu",
