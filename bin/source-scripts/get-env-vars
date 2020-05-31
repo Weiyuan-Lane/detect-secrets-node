@@ -1,0 +1,13 @@
+#!/bin/sh
+
+###############################################################################
+#
+#  "bin/source-scripts/get-env-vars" is a script that is meant to be "sourced"
+#
+#  i.e. Usage: `source ./bin/source-scripts/get-env-vars`
+#
+###############################################################################
+
+YELP_VERSION=v0.13.1
+PRE_COMMIT_CONFIG_FILE=.detect-secrets-pre-commit-config.yaml
+BASELINE_FILE=.secrets.baseline

@@ -1,0 +1,11 @@
+#!/bin/sh
+
+###############################################################################
+#
+#  "bin/source-scripts/install-precommit-hook" is a script that is meant to be "sourced"
+#
+#  i.e. Usage: `source ./bin/source-scripts/install-precommit-hook`
+#
+###############################################################################
+
+pre-commit install --config $PRE_COMMIT_CONFIG_FILE

@@ -1,0 +1,11 @@
+{
+  "name": "detect-secrets-node",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "install": "./bin/install-detect-secrets",
+    "preuninstall": "./bin/uninstall-detect-secrets"
+  },
+  "author": "Weiyuan Liu",
+  "license": "ISC"
+}

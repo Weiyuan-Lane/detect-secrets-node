@@ -1,0 +1,16 @@
+#!/bin/sh
+
+###############################################################################
+#
+#  "bin/source-scripts/validate-pip" is a script that is meant to be "sourced"
+#
+#  i.e. Usage: `source ./bin/source-scripts/validate-pip`
+#
+###############################################################################
+
+which pip;
+if [ $? -ne 0 ]; 
+then 
+  echo "Please install pip first";
+  exit 1 ;
+fi

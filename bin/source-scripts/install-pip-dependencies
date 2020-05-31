@@ -1,0 +1,13 @@
+#!/bin/sh
+
+###############################################################################
+#
+#  "bin/source-scripts/install-pip-dependencies" is a script that is meant to be "sourced"
+#
+#  i.e. Usage: `source ./bin/source-scripts/install-pip-dependencies`
+#
+###############################################################################
+
+# TODO: use requirements.txt instead
+pip install pre-commit 
+pip install detect-secrets
