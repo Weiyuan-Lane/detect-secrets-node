@@ -9,5 +9,5 @@
 ###############################################################################
 
 YELP_VERSION=v0.13.1
-PRE_COMMIT_CONFIG_FILE=.detect-secrets-pre-commit-config.yaml
-BASELINE_FILE=.secrets.baseline
+PRE_COMMIT_CONFIG_FILE=$APPDIR/.detect-secrets-pre-commit-config.yaml
+BASELINE_FILE=$APPDIR/.secrets.baseline
